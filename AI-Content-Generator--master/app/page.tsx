@@ -16,14 +16,14 @@ export default function Home() {
       {/* Hero Section */}
       <div className='flex flex-col items-center mb-12 animate-fade-in'>
         <Image
-          src='/images/logo2.png'
-          alt='EasilyFamous Logo'
+          src='/images/logo1-1.png'
+          alt='GenixAI Logo'
           width={240}
           height={240}
           className='mb-4 rounded-lg p-2'
         />
         <h1 className='text-4xl md:text-5xl font-extrabold text-[#254f1a] text-center mb-2 drop-shadow-lg'>
-          EasilyFamous
+          GenixAI
         </h1>
         <div className='h-1 w-16 bg-[#d2e823] rounded-full mb-4' />
         <p className='text-gray-700 text-lg text-center max-w-xl mb-6'>

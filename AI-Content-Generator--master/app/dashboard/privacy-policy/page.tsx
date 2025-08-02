@@ -43,7 +43,7 @@ const PrivacyPolicyPage: React.FC = () => {
             Introduction
           </h2>
           <p className='text-gray-700'>
-            Welcome to EasilyFamous! Your privacy is important to us. This
+            Welcome to GenixAI! Your privacy is important to us. This
             Privacy Policy explains how we collect, use, and protect your data
             when using our website. Our website provides AI-generated content
             and offers promotional features, such as likes.
@@ -180,10 +180,10 @@ const PrivacyPolicyPage: React.FC = () => {
           <p className='text-gray-700'>
             If you have any questions, contact us at{' '}
             <a
-              href='mailto:im.thegod883@gmail.com'
+              href='mailto:genixai@gmail.com'
               className='text-blue-600 underline hover:text-blue-800 transition-colors'
             >
-              im.thegod883@gmail.com
+              genixai@gmail.com
             </a>
             .
           </p>

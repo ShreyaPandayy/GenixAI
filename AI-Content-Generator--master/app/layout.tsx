@@ -1,16 +1,15 @@
-import type { Metadata } from 'next'
-import './globals.css'
-import { Analytics } from '@vercel/analytics/react'
+import type { Metadata } from 'next';
+import './globals.css';
+import { Analytics } from '@vercel/analytics/react';
 
-// ✅ Fixed favicon path (store logo.png in /public)
+// ✅ Correct favicon path (your logo is logo1-1.png in /public/images)
 export const metadata: Metadata = {
-  title: 'Easily Famous',
-  description:
-    'One stop solution to all your generative AI and creative needs.',
+  title: 'GenixAI',
+  description: 'One stop solution to all your generative AI and creative needs.',
   icons: {
-    icon: '/images/logo2.png', // ✅ Use absolute path (Next.js serves from /public)
+    icon: '/images/logo1-1.png', // <-- Correct path to favicon
   },
-}
+};
 
 export default function RootLayout({
   children,
@@ -19,8 +18,8 @@ export default function RootLayout({
     <html lang='en'>
       <body>
         {children}
-        <Analytics /> {/* ✅ Corrected placement */}
+        <Analytics />
       </body>
     </html>
-  )
+  );
 }

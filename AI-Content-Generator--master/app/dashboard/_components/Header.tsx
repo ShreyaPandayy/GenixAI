@@ -17,7 +17,7 @@ const Header: React.FC<HeaderProps> = ({ toggleSidebar }) => {
         <section className='flex md:hidden flex-col h-16 justify-center items-center p-2'>
           <Image
             className='h-20 w-auto cursor-pointer'
-            src='/images/logo2.png'
+            src='/images/logo1-1.png'
             height={150}
             width={150}
             alt='Logo'

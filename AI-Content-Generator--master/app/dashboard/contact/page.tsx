@@ -38,10 +38,10 @@ const ContactPage: React.FC = () => {
           <p className='text-gray-700 mb-4'>
             📩{' '}
             <a
-              href='mailto:im.thegod883@gmail.com'
+              href='mailto:genixai@gmail.com'
               className='text-blue-600 underline hover:text-blue-800 transition-colors'
             >
-              im.thegod883@gmail.com
+              genixai@gmail.com
             </a>
           </p>
         </section>

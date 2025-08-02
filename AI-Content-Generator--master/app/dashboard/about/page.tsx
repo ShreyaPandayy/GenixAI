@@ -25,7 +25,7 @@ export default function AboutUsPage() {
           </h1>
           <div className='h-1 w-16 bg-[#d2e823] rounded-full mb-2' />
           <p className='text-gray-700 text-lg text-center max-w-xl'>
-            Welcome to <span className='font-semibold'>Easily Famous</span> –
+            Welcome to <span className='font-semibold'>Genix AI</span> –
             your one-stop solution for all generative AI and creative needs.
           </p>
         </div>
@@ -78,7 +78,7 @@ export default function AboutUsPage() {
           </h2>
           <p className='text-gray-700'>
             Have questions or need assistance? Feel free to reach out at
-            <span className='font-semibold'> im.thegod883@gmail.com</span>.
+            <span className='font-semibold'> genixai@gmail.com</span>.
           </p>
         </section>
         <style jsx>{`

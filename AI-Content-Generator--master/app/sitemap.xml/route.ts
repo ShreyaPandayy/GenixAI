@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server'
 import Templates from '../(data)/Templates'
 
-const siteUrl = 'https://easilyfamous.com'
+const siteUrl = 'https://GenixAI.com'
 
 export async function GET() {
   const staticPages = [

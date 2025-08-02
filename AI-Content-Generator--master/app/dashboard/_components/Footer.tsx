@@ -26,7 +26,7 @@ const Footer: React.FC = () => {
         {/* Logo or Brand Name */}
         <div className='mb-4'>
           <h2 className='text-5xl font-bold text-white drop-shadow'>
-            EasilyFamous
+            GenixAI
           </h2>
         </div>
 
@@ -120,7 +120,7 @@ const Footer: React.FC = () => {
 
         {/* Copyright */}
         <div className='text-center mt-6 text-[#d2e823] text-xs opacity-80'>
-          &copy; {new Date().getFullYear()} EasilyFamous. All rights reserved.
+          &copy; {new Date().getFullYear()} GenixAI. All rights reserved.
         </div>
       </div>
     </footer>

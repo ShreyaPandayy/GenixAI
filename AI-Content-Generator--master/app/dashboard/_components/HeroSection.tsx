@@ -37,7 +37,7 @@ const HeroSection = ({ onSearchInput, searchInput }: HeroSectionProps) => {
       </div>
       <div className='flex-1 flex items-center justify-center mb-8 md:mb-0'>
         <Image
-          src='/images/logo2.png'
+          src='/images/logo1-1.png'
           alt='AI Content Generator Illustration'
           width={400}
           height={400}
